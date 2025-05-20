@@ -36,9 +36,12 @@ const Header = () => {
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <a href="#" className="flex items-center">
-          {/* Placeholder for the logo - will be replaced with actual logo */}
           <div className="h-12 w-auto mr-2">
-            <div className="text-2xl font-bold">AFFA</div>
+            <img 
+              src="/lovable-uploads/c3280ea8-388a-46e8-b329-30945abeff7b.png" 
+              alt="AFFA Logo" 
+              className="h-12 w-auto"
+            />
           </div>
         </a>
 

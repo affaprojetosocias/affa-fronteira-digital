@@ -15,7 +15,7 @@ const Footer = () => {
               Associação Fortalecendo Famílias
             </p>
             <p className="text-gray-300 mt-2">
-              Ponta Porã - MS
+              Rua Coronel Santana 113, Ponta Porã - MS
             </p>
           </div>
           
