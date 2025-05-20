@@ -27,6 +27,11 @@ const Header = () => {
     { name: 'Como Contribuir', href: '#como-contribuir' }
   ];
 
+  // Close menu when clicking on a link
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header 
       className={cn(
@@ -77,7 +82,7 @@ const Header = () => {
                 key={item.name}
                 href={item.href}
                 className="px-4 py-3 text-gray-800 hover:bg-gray-100 font-medium"
-                onClick={() => setIsMenuOpen(false)}
+                onClick={handleLinkClick}
               >
                 {item.name}
               </a>

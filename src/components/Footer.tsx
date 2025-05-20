@@ -31,7 +31,9 @@ const Footer = () => {
               <span>CNPJ: 57.954.461/0001-10</span>
             </p>
             <p className="text-gray-300 mt-2">
-              <span>Telefone: (67) 99921-3236</span>
+              <a href="tel:+5567999213236" className="hover:underline">
+                Telefone: (67) 99921-3236
+              </a>
             </p>
           </div>
           
