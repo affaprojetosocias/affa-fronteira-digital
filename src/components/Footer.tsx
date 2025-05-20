@@ -30,6 +30,9 @@ const Footer = () => {
             <p className="text-gray-300 mt-2">
               <span>CNPJ: 57.954.461/0001-10</span>
             </p>
+            <p className="text-gray-300 mt-2">
+              <span>Telefone: (67) 99921-3236</span>
+            </p>
           </div>
           
           {/* Column 3 */}

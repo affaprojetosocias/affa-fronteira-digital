@@ -7,19 +7,19 @@ const Programs = () => {
     {
       title: 'Aulas de Jiu-Jitsu',
       description: 'Terças, das 18h às 19:30h',
-      icon: <img src="/lovable-uploads/9a7c0a50-19dd-4f09-8da4-486f79940e9d.png" alt="Jiu-Jitsu" className="h-12 w-auto mb-4" />,
+      icon: <img src="/lovable-uploads/9a7c0a50-19dd-4f09-8da4-486f79940e9d.png" alt="Jiu-Jitsu" className="w-full h-full object-cover" />,
       color: 'bg-gray-900'
     },
     {
       title: 'Aulas de Música',
       description: 'Teclado e violão | Terças, das 18h às 19:30h',
-      icon: <img src="/lovable-uploads/436a2092-ca40-4596-ad84-ab6d79efe602.png" alt="Música" className="h-12 w-auto mb-4" />,
+      icon: <img src="/lovable-uploads/436a2092-ca40-4596-ad84-ab6d79efe602.png" alt="Música" className="w-full h-full object-cover" />,
       color: 'bg-gray-800'
     },
     {
       title: 'Aulas de Dança Paraguaia',
       description: 'Sábados, das 14:30h às 16:30h',
-      icon: <img src="/lovable-uploads/e9476d98-1e63-4543-8b19-4def78f577f6.png" alt="Dança Paraguaia" className="h-12 w-auto mb-4" />,
+      icon: <img src="/lovable-uploads/e9476d98-1e63-4543-8b19-4def78f577f6.png" alt="Dança Paraguaia" className="w-full h-full object-cover" />,
       color: 'bg-gray-700'
     }
   ];
@@ -32,7 +32,7 @@ const Programs = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {programs.map((program, index) => (
             <Card key={index} className="overflow-hidden border-none shadow-lg transform transition-transform hover:-translate-y-1">
-              <div className={`${program.color} p-6 flex justify-center text-white`}>
+              <div className={`${program.color} h-32 flex justify-center items-center text-white overflow-hidden`}>
                 {program.icon}
               </div>
               <CardHeader>

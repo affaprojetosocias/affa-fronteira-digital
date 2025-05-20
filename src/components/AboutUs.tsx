@@ -9,8 +9,12 @@ const AboutUs = () => {
         
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/3 flex justify-center">
-            <div className="p-6 rounded-full bg-black text-white w-40 h-40 flex items-center justify-center">
-              <Users size={80} />
+            <div className="p-4 rounded-full bg-black text-white w-40 h-40 flex items-center justify-center overflow-hidden">
+              <img
+                src="/lovable-uploads/59dfc8a1-39f1-4ea9-b65a-96c79005bd1f.png"
+                alt="AFFA - Projetos Sociais"
+                className="h-32 w-32 object-contain"
+              />
             </div>
           </div>
           
