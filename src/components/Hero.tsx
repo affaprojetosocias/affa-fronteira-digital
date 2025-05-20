@@ -6,6 +6,13 @@ const Hero = () => {
     <section className="min-h-[90vh] flex items-center bg-black text-white pt-20">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
+          <div className="flex justify-center mb-6">
+            <img
+              src="/lovable-uploads/59dfc8a1-39f1-4ea9-b65a-96c79005bd1f.png"
+              alt="AFFA - Projetos Sociais"
+              className="h-20 md:h-24 w-auto"
+            />
+          </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 animate-slide-in">
             Associação Fortalecendo Famílias
           </h1>

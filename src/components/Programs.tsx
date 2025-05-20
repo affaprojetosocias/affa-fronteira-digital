@@ -7,19 +7,19 @@ const Programs = () => {
     {
       title: 'Aulas de Jiu-Jitsu',
       description: 'Terças, das 18h às 19:30h',
-      icon: <Award className="h-12 w-12 mb-4" />,
+      icon: <img src="/lovable-uploads/9a7c0a50-19dd-4f09-8da4-486f79940e9d.png" alt="Jiu-Jitsu" className="h-12 w-auto mb-4" />,
       color: 'bg-gray-900'
     },
     {
       title: 'Aulas de Música',
       description: 'Teclado e violão | Terças, das 18h às 19:30h',
-      icon: <Music className="h-12 w-12 mb-4" />,
+      icon: <img src="/lovable-uploads/436a2092-ca40-4596-ad84-ab6d79efe602.png" alt="Música" className="h-12 w-auto mb-4" />,
       color: 'bg-gray-800'
     },
     {
       title: 'Aulas de Dança Paraguaia',
       description: 'Sábados, das 14:30h às 16:30h',
-      icon: <Image className="h-12 w-12 mb-4" />,
+      icon: <img src="/lovable-uploads/e9476d98-1e63-4543-8b19-4def78f577f6.png" alt="Dança Paraguaia" className="h-12 w-auto mb-4" />,
       color: 'bg-gray-700'
     }
   ];
