@@ -1,12 +1,60 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useEffect } from 'react';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import AboutUs from '@/components/AboutUs';
+import Programs from '@/components/Programs';
+import Gallery from '@/components/Gallery';
+import Contribute from '@/components/Contribute';
+import Footer from '@/components/Footer';
 
 const Index = () => {
+  // Simple reveal on scroll animation
+  useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.reveal');
+      
+      elements.forEach((element) => {
+        const elementTop = element.getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < window.innerHeight - elementVisible) {
+          element.classList.add('active');
+        }
+      });
+    };
+    
+    window.addEventListener('scroll', handleScroll);
+    // Trigger once on initial load
+    handleScroll();
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <main>
+        <Hero />
+        
+        <div className="reveal">
+          <AboutUs />
+        </div>
+        
+        <div className="reveal">
+          <Programs />
+        </div>
+        
+        <div className="reveal">
+          <Gallery />
+        </div>
+        
+        <div className="reveal">
+          <Contribute />
+        </div>
+      </main>
+      
+      <Footer />
     </div>
   );
 };
