@@ -54,11 +54,11 @@ const Gallery = () => {
                 {images.map((image, index) => (
                   <CarouselItem key={index}>
                     <Card className="overflow-hidden border-none shadow-md">
-                      <div className="image-container aspect-[4/3]">
+                      <div className="image-container p-2">
                         <img
                           src={image.src}
                           alt={image.alt}
-                          className="w-full h-full object-cover"
+                          className="w-auto h-auto max-w-full max-h-[300px] mx-auto"
                         />
                       </div>
                     </Card>
@@ -75,12 +75,12 @@ const Gallery = () => {
           // Desktop grid view
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {images.map((image, index) => (
-              <Card key={index} className="overflow-hidden border-none shadow-md group">
-                <div className="image-container aspect-[4/3]">
+              <Card key={index} className="overflow-hidden border-none shadow-md group p-3">
+                <div className="flex justify-center items-center">
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="w-full h-full object-cover"
+                    className="w-auto h-auto max-w-full max-h-[250px]"
                   />
                 </div>
               </Card>

@@ -25,7 +25,7 @@ const AboutUs = () => {
             <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4 text-center">
               <div className="p-4 bg-gray-100 rounded-lg">
                 <h3 className="font-bold text-lg">Fundação</h3>
-                <p>24 de julho de 2024</p>
+                <p>1 de maio de 2024</p>
               </div>
               <div className="p-4 bg-gray-100 rounded-lg">
                 <h3 className="font-bold text-lg">Localização</h3>

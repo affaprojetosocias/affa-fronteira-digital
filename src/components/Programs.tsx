@@ -18,7 +18,7 @@ const Programs = () => {
     },
     {
       title: 'Aulas de Dança',
-      description: 'Sábados, das 14:30h às 16:30h',
+      description: 'Dança regional e ballet | Sábados, das 14:30h às 16:30h',
       icon: <img src="/affa-fronteira-digital/lovable-uploads/616e6f22-1a8c-40ce-8341-7b740a8d4f78.png" alt="Dança" className="w-full h-full object-cover" />,
       color: 'bg-gray-700'
     }
