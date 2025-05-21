@@ -43,7 +43,7 @@ const Header = () => {
         <a href="#" className="flex items-center">
           <div className="h-12 w-auto mr-2">
             <img 
-              src="/lovable-uploads/c3280ea8-388a-46e8-b329-30945abeff7b.png" 
+              src="/affa-fronteira-digital/lovable-uploads/2f79e502-ba03-4cbc-b1fe-f82ff2b6b617.png" 
               alt="AFFA Logo" 
               className="h-12 w-auto"
             />

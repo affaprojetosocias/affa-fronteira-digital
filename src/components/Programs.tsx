@@ -7,19 +7,19 @@ const Programs = () => {
     {
       title: 'Aulas de Jiu-Jitsu',
       description: 'Terças, das 18h às 19:30h',
-      icon: <img src="/lovable-uploads/9a7c0a50-19dd-4f09-8da4-486f79940e9d.png" alt="Jiu-Jitsu" className="w-full h-full object-cover" />,
+      icon: <img src="/affa-fronteira-digital/lovable-uploads/b277a815-47e3-4af9-9f7e-cef66c1ef4a1.png" alt="Jiu-Jitsu" className="w-full h-full object-cover" />,
       color: 'bg-gray-900'
     },
     {
       title: 'Aulas de Música',
       description: 'Teclado e violão | Terças, das 18h às 19:30h',
-      icon: <img src="/lovable-uploads/436a2092-ca40-4596-ad84-ab6d79efe602.png" alt="Música" className="w-full h-full object-cover" />,
+      icon: <img src="/affa-fronteira-digital/lovable-uploads/0c582ca1-19de-414d-ac72-b0cd7dd3f4dd.png" alt="Música" className="w-full h-full object-cover" />,
       color: 'bg-gray-800'
     },
     {
-      title: 'Aulas de Dança Paraguaia',
+      title: 'Aulas de Dança',
       description: 'Sábados, das 14:30h às 16:30h',
-      icon: <img src="/lovable-uploads/e9476d98-1e63-4543-8b19-4def78f577f6.png" alt="Dança Paraguaia" className="w-full h-full object-cover" />,
+      icon: <img src="/affa-fronteira-digital/lovable-uploads/616e6f22-1a8c-40ce-8341-7b740a8d4f78.png" alt="Dança" className="w-full h-full object-cover" />,
       color: 'bg-gray-700'
     }
   ];
