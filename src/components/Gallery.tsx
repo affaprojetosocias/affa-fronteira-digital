@@ -13,27 +13,27 @@ const Gallery = () => {
   // Real project images
   const images = [
     {
-      src: "/lovable-uploads/56dc4cb5-4bca-4885-af05-1b0d8345c318.png",
+      src: "/affa-fronteira-digital/lovable-uploads/56dc4cb5-4bca-4885-af05-1b0d8345c318.png",
       alt: "Aula de dança paraguaia",
     },
     {
-      src: "/lovable-uploads/f37d5259-94be-4a76-a28d-19d8798dc05a.png",
+      src: "/affa-fronteira-digital/lovable-uploads/f37d5259-94be-4a76-a28d-19d8798dc05a.png",
       alt: "Aula de jiu-jitsu com as crianças",
     },
     {
-      src: "/lovable-uploads/cb811b26-ca30-4e6b-a187-181557fdda1f.png",
+      src: "/affa-fronteira-digital/lovable-uploads/cb811b26-ca30-4e6b-a187-181557fdda1f.png",
       alt: "Meninas com vestidos de dança paraguaia",
     },
     {
-      src: "/lovable-uploads/a75e3d88-bb93-4556-bf32-ac12cb0c5bc0.png",
+      src: "/affa-fronteira-digital/lovable-uploads/a75e3d88-bb93-4556-bf32-ac12cb0c5bc0.png",
       alt: "Crianças segurando violões nas aulas de música",
     },
     {
-      src: "/lovable-uploads/a460e792-2a50-4ba8-b027-6e01b18a52b3.png",
+      src: "/affa-fronteira-digital/lovable-uploads/a460e792-2a50-4ba8-b027-6e01b18a52b3.png",
       alt: "Criança tocando teclado",
     },
     {
-      src: "/lovable-uploads/febed574-3b07-4106-a987-f15305c9e611.png",
+      src: "/affa-fronteira-digital/lovable-uploads/febed574-3b07-4106-a987-f15305c9e611.png",
       alt: "Aula de jiu-jitsu com as crianças no tatame",
     },
   ];
